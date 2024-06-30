@@ -1,0 +1,395 @@
+.formBodyChild {
+  width: 1378px;
+  height: 804px;
+  position: relative;
+  box-shadow: 0 4px 90px 2px rgba(165, 164, 164, 0.25);
+  border-radius: 10px;
+  background-color: #fff;
+  display: none;
+  max-width: 100%;
+}
+.organizationName {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.nameLabel {
+  width: 217px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 0 0;
+  box-sizing: border-box;
+}
+.organisationName {
+  height: 58px;
+  width: 522px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.name {
+  width: 118px;
+  border: 0;
+  outline: 0;
+  font-family: Roboto;
+  font-size: 24px;
+  background-color: transparent;
+  height: 28px;
+  position: relative;
+  color: #c6c6c6;
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 2;
+}
+.nameInput {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  padding: 14px 20px 12px;
+  min-width: 118px;
+  z-index: 1;
+}
+.nameField,
+.nameFieldWrapper,
+.nameInput {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.nameField {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+.nameFieldWrapper {
+  width: 811px;
+  padding: 0 23px;
+  box-sizing: border-box;
+}
+.address {
+  position: relative;
+  display: inline-block;
+  min-width: 89px;
+  z-index: 1;
+}
+.addressLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 15px 0 0;
+}
+.addressValue {
+  border: 1px solid #dadada;
+  background-color: #fff;
+  height: 277px;
+  width: auto;
+  outline: 0;
+  flex: 1;
+  border-radius: 10px;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  padding: 15px 20px;
+  font-family: Roboto;
+  font-size: 24px;
+  color: #c6c6c6;
+  min-width: 339px;
+  z-index: 1;
+}
+.addressInput,
+.addressInputWrapper,
+.addressValue {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.addressInput {
+  width: 651px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.addressInputWrapper {
+  width: 925px;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.headOfOrganization {
+  position: relative;
+  z-index: 1;
+}
+.headInput {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 15px 0 0;
+}
+.head,
+.name1 {
+  position: relative;
+}
+.head {
+  height: 58px;
+  width: 522px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.name1 {
+  width: 118px;
+  border: 0;
+  outline: 0;
+  font-family: Roboto;
+  font-size: 24px;
+  background-color: transparent;
+  height: 28px;
+  color: #c6c6c6;
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 2;
+}
+.headField,
+.headValue {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.headValue {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  padding: 13px 20px;
+  min-width: 118px;
+  z-index: 1;
+}
+.headField {
+  width: 788px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.phoneNumber {
+  position: relative;
+  z-index: 1;
+}
+.phoneInputValue {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 0 0;
+}
+.name2,
+.phone {
+  position: relative;
+}
+.phone {
+  height: 58px;
+  width: 522px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.name2 {
+  width: 118px;
+  border: 0;
+  outline: 0;
+  font-family: Roboto;
+  font-size: 24px;
+  background-color: transparent;
+  height: 28px;
+  color: #c6c6c6;
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 2;
+}
+.phoneInputBox {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  padding: 14px 20px 12px;
+  min-width: 118px;
+  z-index: 1;
+}
+.phoneInputBox,
+.phoneNumberValue,
+.phoneNumberValueWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.phoneNumberValue {
+  width: 722px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.phoneNumberValueWrapper {
+  align-self: stretch;
+}
+.button {
+  height: 71px;
+  width: 224px;
+  position: relative;
+  box-shadow: 0 4px 90px 2px rgba(165, 164, 164, 0.25);
+  border-radius: 10px;
+  background-color: #fff;
+  display: none;
+}
+.submit1 {
+  align-self: stretch;
+  height: 37px;
+  position: relative;
+  font-size: 25px;
+  font-family: Roboto;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.submitButton {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5px 0 0;
+}
+.checkCircleIcon {
+  height: 37px;
+  width: 37px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameGroup,
+.submit {
+  display: flex;
+  justify-content: flex-start;
+}
+.submit {
+  cursor: pointer;
+  border: 0;
+  padding: 17px 30px 12px 50px;
+  background-color: #fff;
+  width: 224px;
+  box-shadow: 0 4px 90px 2px rgba(165, 164, 164, 0.25);
+  border-radius: 10px;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.frameGroup {
+  width: 1230px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 40px;
+  max-width: 100%;
+}
+.formBody,
+.frameParent,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.formBody,
+.frameParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 52px;
+}
+.formBody {
+  box-shadow: 0 4px 90px 2px rgba(165, 164, 164, 0.25);
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 28px 36px 55px;
+  box-sizing: border-box;
+  gap: 55px;
+  z-index: 2;
+  margin-top: -347px;
+  text-align: left;
+  font-size: 24px;
+  color: #4d4d4d;
+  font-family: Roboto;
+}
+@media screen and (max-width: 1025px) {
+  .formBody {
+    padding-bottom: 36px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .addressValue {
+    min-width: 100%;
+  }
+  .addressInput,
+  .frameGroup,
+  .phoneNumberValue {
+    gap: 20px;
+  }
+  .frameParent {
+    gap: 26px;
+  }
+  .formBody {
+    gap: 27px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .address,
+  .headOfOrganization,
+  .name,
+  .name1,
+  .organizationName {
+    font-size: 19px;
+  }
+  .headField {
+    gap: 20px;
+  }
+  .name2,
+  .phoneNumber {
+    font-size: 19px;
+  }
+  .submit1 {
+    font-size: 20px;
+  }
+  .formBody {
+    padding-bottom: 23px;
+    box-sizing: border-box;
+  }
+}

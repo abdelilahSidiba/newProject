@@ -1,0 +1,1618 @@
+.calenderChild,
+.calenderItem,
+.profileSectionChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background-color: #f9f9f9;
+  width: 1400px;
+  height: 788px;
+}
+.calenderChild,
+.calenderItem {
+  box-shadow: 0 4px 100px 3px rgba(162, 162, 162, 0.25);
+  background-color: #fff;
+  width: 975px;
+  height: 222px;
+}
+.calenderItem {
+  top: 390px;
+  left: 1014px;
+  box-shadow: 0 4px 100px 2px rgba(164, 162, 162, 0.25);
+  width: 341px;
+  height: 354px;
+}
+.mo {
+  width: 20px;
+  position: relative;
+  font-weight: 600;
+  justify-content: center;
+  height: 20px;
+  flex-shrink: 0;
+}
+.mo,
+.row,
+.weekday {
+  display: flex;
+  align-items: center;
+}
+.weekday {
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.row {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.div {
+  width: 20px;
+  position: relative;
+  justify-content: center;
+  height: 20px;
+  flex-shrink: 0;
+}
+.dateDefault,
+.div {
+  display: flex;
+  align-items: center;
+}
+.dateActive,
+.dateDefault,
+.dateDefault27 {
+  border: 1px solid #dfdfdf;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.dateActive {
+  background-color: #3547e9;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.dateDefault27 {
+  color: #000;
+}
+.dateDefault27,
+.dateInactive,
+.days,
+.row5 {
+  display: flex;
+  align-items: center;
+}
+.dateInactive {
+  background-color: #fcfcfc;
+  border: 1px solid #dfdfdf;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.days,
+.row5 {
+  justify-content: flex-start;
+}
+.row5 {
+  flex-direction: row;
+  color: #747474;
+}
+.days {
+  position: absolute;
+  top: 46px;
+  left: 0;
+  flex-direction: column;
+}
+.iconChevronRight {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 16px;
+  height: 16px;
+  opacity: 0.2;
+}
+.iconChevronLeft,
+.iconChevronRightParent {
+  position: absolute;
+  top: 0;
+  right: 24px;
+  width: 16px;
+  height: 16px;
+}
+.iconChevronRightParent {
+  top: 3px;
+  right: 0;
+  width: 40px;
+}
+.calendar,
+.calender,
+.header {
+  position: absolute;
+  width: 280px;
+}
+.header {
+  top: 0;
+  left: 0;
+  height: 22px;
+  text-align: left;
+  font-size: 18px;
+}
+.calendar,
+.calender {
+  top: 424px;
+  left: 1045px;
+  height: 286px;
+}
+.calender {
+  top: 15px;
+  left: 16px;
+  width: 1355px;
+  height: 744px;
+  text-align: center;
+  font-size: 12px;
+  font-family: Inter;
+}
+.profilePhotoChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 100px 2px rgba(218, 218, 218, 0.25);
+  border-radius: 10px;
+  background-color: #fff;
+  width: 162px;
+  height: 162px;
+}
+.profilePhotoItem {
+  position: absolute;
+  top: 9px;
+  left: 8px;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  width: 144px;
+  height: 144px;
+}
+.bellIcon,
+.profilePhoto {
+  position: absolute;
+  top: 37px;
+  left: 46px;
+  width: 162px;
+  height: 162px;
+}
+.bellIcon {
+  top: 10px;
+  left: 511px;
+  width: 25px;
+  height: 27px;
+  overflow: hidden;
+}
+.button {
+  position: absolute;
+  top: 3px;
+  left: 556px;
+  box-shadow: 0 4px 90px 5px #dedfdf;
+  border-radius: 10px;
+  background-color: #b32323;
+  width: 169px;
+  height: 39px;
+}
+.editProfile,
+.getBlood {
+  position: absolute;
+  width: 105.8px;
+  height: 11.8px;
+}
+.editProfile {
+  top: 0;
+  left: 0;
+  font-weight: 900;
+  display: inline-block;
+}
+.getBlood {
+  top: 12px;
+  left: 589px;
+}
+.oumaimaChahir {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 36px;
+  font-weight: 900;
+  color: #000;
+}
+.button1,
+.editProfile1 {
+  position: absolute;
+  display: none;
+}
+.button1 {
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 90px 5px #dedfdf;
+  border-radius: 10px;
+  background-color: #fffbfb;
+  width: 179px;
+  height: 39px;
+}
+.editProfile1 {
+  top: 9px;
+  left: 43px;
+  font-weight: 900;
+  width: 105.8px;
+  height: 11.8px;
+}
+.getBlood1,
+.notificationBar,
+.profileHeader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+}
+.notificationBar,
+.profileHeader {
+  top: 3px;
+  left: 498px;
+}
+.profileHeader {
+  top: 149px;
+  left: 242px;
+  width: 725px;
+  height: 42px;
+  color: #fff;
+}
+.aboutPageChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background-color: #fff;
+  width: 967px;
+  height: 488px;
+}
+.dinoyRajK,
+.fullName {
+  position: absolute;
+  top: 73px;
+  left: 137px;
+}
+.dinoyRajK {
+  top: 74px;
+  left: 399px;
+}
+.dinoykrajgamilcom,
+.email {
+  position: absolute;
+  top: 117px;
+  left: 173px;
+}
+.dinoykrajgamilcom {
+  left: 397px;
+}
+.bloodGroup,
+.district {
+  position: absolute;
+  top: 162px;
+  left: 160px;
+}
+.bloodGroup {
+  top: 355px;
+  left: 120px;
+}
+.address,
+.pincode {
+  position: absolute;
+  top: 262px;
+  left: 153px;
+}
+.address {
+  top: 406px;
+  left: 151px;
+}
+.age,
+.phoneNumber {
+  position: absolute;
+  top: 306px;
+  left: 187px;
+}
+.phoneNumber {
+  top: 211px;
+  left: 98px;
+}
+.lastDonationDate {
+  position: absolute;
+  top: 450px;
+  left: 67px;
+}
+.div35,
+.kozhikode {
+  position: absolute;
+  top: 161px;
+  left: 399px;
+}
+.div35 {
+  top: 210px;
+}
+.div36,
+.div37,
+.oVe {
+  position: absolute;
+  top: 258px;
+  left: 397px;
+}
+.div37,
+.oVe {
+  top: 308px;
+}
+.oVe {
+  top: 352px;
+  left: 398px;
+}
+.about,
+.div38,
+.karuvallyReenugeethamHouse {
+  position: absolute;
+  top: 402px;
+  left: 397px;
+}
+.about,
+.div38 {
+  top: 448px;
+  left: 398px;
+}
+.about {
+  top: 25px;
+  left: 287px;
+  font-size: 24px;
+}
+.lineDiv,
+.sectionLinesChild,
+.sectionLinesInner,
+.sectionLinesItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 1px solid #e1e1e1;
+  box-sizing: border-box;
+  width: 966px;
+  height: 1px;
+}
+.lineDiv,
+.sectionLinesInner,
+.sectionLinesItem {
+  top: 48px;
+}
+.lineDiv,
+.sectionLinesInner {
+  top: 96px;
+}
+.lineDiv {
+  top: 144px;
+}
+.sectionLinesChild1,
+.sectionLinesChild2,
+.sectionLinesChild3,
+.sectionLinesChild4,
+.sectionLinesChild5 {
+  position: absolute;
+  top: 192px;
+  left: 0;
+  border-top: 1px solid #e1e1e1;
+  box-sizing: border-box;
+  width: 966px;
+  height: 1px;
+}
+.sectionLinesChild2,
+.sectionLinesChild3,
+.sectionLinesChild4,
+.sectionLinesChild5 {
+  top: 240px;
+}
+.sectionLinesChild3,
+.sectionLinesChild4,
+.sectionLinesChild5 {
+  top: 288px;
+}
+.sectionLinesChild4,
+.sectionLinesChild5 {
+  top: 336px;
+}
+.sectionLinesChild5 {
+  top: 384px;
+}
+.aboutPage,
+.sectionLines {
+  position: absolute;
+  top: 104px;
+  left: 2px;
+  width: 965px;
+  height: 384px;
+}
+.aboutPage {
+  top: 271px;
+  left: 24px;
+  width: 967px;
+  height: 488px;
+}
+.child,
+.donationHistoryChild {
+  position: absolute;
+  left: 0;
+  width: 341px;
+}
+.donationHistoryChild {
+  top: 0;
+  box-shadow: 0 4px 100px 2px rgba(164, 162, 162, 0.25);
+  border-radius: 20px;
+  background-color: #fff;
+  height: 373px;
+}
+.child {
+  top: 31px;
+  height: 1px;
+  object-fit: contain;
+}
+.dec2020 {
+  top: 0;
+  left: 26px;
+}
+.dec2020,
+.div39,
+.div40 {
+  position: absolute;
+}
+.div40 {
+  top: 0;
+  left: 277px;
+  color: #4b4b4b;
+}
+.div39 {
+  top: 171px;
+  left: 0;
+  width: 341px;
+  height: 32px;
+}
+.div42 {
+  top: 0;
+  left: 288px;
+  color: #4b4b4b;
+}
+.div41,
+.div42,
+.div44 {
+  position: absolute;
+}
+.div41 {
+  top: 215px;
+  left: 0;
+  width: 341px;
+  height: 32px;
+}
+.div44 {
+  top: 0;
+  left: 287px;
+  color: #4b4b4b;
+}
+.div43,
+.lineIcon {
+  position: absolute;
+  top: 263px;
+  left: 0;
+  width: 341px;
+  height: 32px;
+}
+.lineIcon {
+  top: 35px;
+  height: 1px;
+  object-fit: contain;
+}
+.div45,
+.oct2020 {
+  position: absolute;
+  top: 4px;
+  left: 26px;
+}
+.div45 {
+  top: 308px;
+  left: 0;
+  width: 341px;
+  height: 36px;
+}
+.donationHistory1 {
+  position: absolute;
+  top: 31px;
+  left: 104px;
+  color: #000;
+}
+.bloodUnits,
+.date,
+.donationHistory {
+  position: absolute;
+  top: 109px;
+  left: 216px;
+  color: #cbc7c7;
+}
+.date,
+.donationHistory {
+  left: 26px;
+}
+.donationHistory {
+  top: 15px;
+  left: 1030px;
+  width: 341px;
+  height: 373px;
+  color: #575656;
+}
+.profileSection {
+  position: absolute;
+  top: 166px;
+  left: 20px;
+  width: 1400px;
+  height: 788px;
+  font-size: 18px;
+}
+.home {
+  position: absolute;
+  top: 16px;
+  left: 348px;
+}
+.aboutUs,
+.button2,
+.findBlood {
+  position: absolute;
+  top: 16px;
+  left: 675px;
+}
+.aboutUs,
+.button2 {
+  left: 494px;
+}
+.button2 {
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 224px;
+  height: 71px;
+}
+.buttonParent,
+.contact {
+  position: absolute;
+  top: 22px;
+  left: 49px;
+  display: inline-block;
+  width: 126px;
+  height: 37px;
+}
+.buttonParent {
+  top: -1px;
+  left: 1092px;
+  width: 0;
+  height: 0;
+  display: none;
+  font-size: 25px;
+  font-family: Roboto;
+}
+.chevronDownIcon,
+.registerNow {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.chevronDownIcon {
+  top: 16px;
+  left: 161px;
+  width: 23px;
+  height: 23px;
+  overflow: hidden;
+}
+.registerNowParent {
+  position: absolute;
+  top: 15px;
+  left: 873px;
+  width: 184px;
+  height: 39px;
+}
+.navbarChild,
+.navbarItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 61px;
+  height: 62px;
+}
+.navbarItem {
+  top: 54px;
+  left: 675px;
+  background-color: #4b4949;
+  width: 124px;
+  height: 5px;
+}
+.navbar {
+  position: absolute;
+  top: 53px;
+  left: 62px;
+  width: 1057px;
+  height: 62px;
+  font-family: Poppins;
+}
+.profileCircle {
+  position: absolute;
+  top: 0;
+  left: 137.3px;
+  box-shadow: 0 4px 100px 3px rgba(97, 93, 93, 0.25);
+  border-radius: 50%;
+  background-color: #fff;
+  width: 44px;
+  height: 44px;
+}
+.bellIcon1,
+.mailIcon {
+  position: absolute;
+  top: 0;
+  left: 55.3px;
+  width: 30.1px;
+  height: 30.1px;
+  overflow: hidden;
+}
+.mailIcon {
+  left: 0;
+}
+.messageAndNotificationChild {
+  position: absolute;
+  top: -8.2px;
+  left: 115.3px;
+  width: 0;
+  height: 0;
+  display: none;
+}
+.messageAndNotification {
+  position: absolute;
+  top: 8.2px;
+  left: 0;
+  width: 85.4px;
+  height: 30.1px;
+}
+.profileOnNavBar,
+.tabaroi {
+  position: absolute;
+  top: 63px;
+  left: 1170px;
+  width: 181.3px;
+  height: 44px;
+}
+.tabaroi {
+  top: 73px;
+  left: 119px;
+  font-weight: 500;
+  display: inline-block;
+  width: 165px;
+  height: 34px;
+}
+.dashboardDonor1,
+.logOutDropDownChild {
+  position: absolute;
+  background-color: #fff;
+}
+.dashboardDonor1 {
+  top: 0;
+  left: 6517px;
+  width: 1440px;
+  height: 984px;
+  overflow: hidden;
+}
+.logOutDropDownChild {
+  top: 15px;
+  left: 0;
+  box-shadow: 0 4px 100px 3px rgba(147, 147, 147, 0.25);
+  border-radius: 20px;
+  width: 175px;
+  height: 98px;
+}
+.logOut {
+  position: absolute;
+  top: 53px;
+  left: 19px;
+}
+.logOutDropDownItem,
+.logOutIcon {
+  position: absolute;
+  top: 0;
+  left: 101px;
+  width: 36px;
+  height: 32px;
+}
+.logOutIcon {
+  top: 54px;
+  left: 124px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.dashboardDonor2,
+.logOutDropDown {
+  position: absolute;
+  top: 121px;
+  left: 1211px;
+  width: 175px;
+  height: 113px;
+}
+.dashboardDonor2 {
+  top: 1185px;
+  left: 6517px;
+  background-color: #fff;
+  width: 1440px;
+  height: 984px;
+  overflow: hidden;
+}
+.editProfileSectionChild {
+  position: absolute;
+  top: 131px;
+  left: 0;
+  background: linear-gradient(
+    90.1deg,
+    #460505,
+    #460505 0.01%,
+    #500707 15.52%,
+    #5e0909 32.71%,
+    #610808 47.81%,
+    #6a0b0b 63.44%,
+    #991717 76.98%,
+    #b32323 94.17%
+  );
+  width: 1379px;
+  height: 1198px;
+}
+.editProfile4,
+.tabaroi2 {
+  position: absolute;
+  font-weight: 500;
+  display: inline-block;
+}
+.tabaroi2 {
+  top: 0;
+  left: 98px;
+  width: 165px;
+  height: 34px;
+}
+.editProfile4 {
+  top: 190px;
+  left: 50px;
+  font-size: 36px;
+  color: #fff;
+  width: 355px;
+}
+.editProfileSection {
+  position: absolute;
+  top: 79px;
+  left: 30px;
+  width: 1379px;
+  height: 1329px;
+}
+.firstName,
+.formSectionChild {
+  position: absolute;
+  top: 0;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.formSectionChild {
+  left: 0;
+  box-shadow: 0 4px 90px 2px rgba(165, 164, 164, 0.25);
+  width: 1379px;
+  height: 1198px;
+}
+.firstName {
+  left: 144px;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  width: 459px;
+  height: 59px;
+}
+.district3 {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  display: inline-block;
+  width: 78px;
+  height: 29px;
+}
+.district2,
+.firstName1 {
+  position: absolute;
+  top: 595px;
+  left: 148px;
+  width: 603px;
+  height: 59px;
+}
+.firstName1 {
+  top: 0;
+  left: 157px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  width: 459px;
+  height: 58px;
+}
+.pincode3 {
+  position: absolute;
+  top: 11px;
+  left: 0;
+  display: inline-block;
+  width: 91px;
+  height: 28px;
+}
+.lastName,
+.pincode2 {
+  position: absolute;
+  top: 708px;
+  left: 135px;
+  width: 616px;
+  height: 58px;
+}
+.lastName {
+  top: 0;
+  left: 97px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  width: 322px;
+  height: 59px;
+}
+.state1 {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  display: inline-block;
+  width: 56px;
+  height: 29px;
+}
+.lastName1,
+.state {
+  position: absolute;
+  top: 593px;
+  left: 897px;
+  width: 419px;
+  height: 59px;
+}
+.lastName1 {
+  top: 0;
+  left: 175px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  width: 322px;
+  height: 57px;
+}
+.bloodGroup2 {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  display: inline-block;
+  width: 134px;
+  height: 27px;
+}
+.email3,
+.group {
+  position: absolute;
+  top: 494px;
+  left: 819px;
+  width: 497px;
+  height: 57px;
+}
+.email3 {
+  top: 0;
+  left: 132px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  width: 1024px;
+  height: 58px;
+}
+.eMail {
+  top: 15px;
+  left: 0;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 66px;
+  height: 28px;
+}
+.eMail,
+.email2,
+.email4 {
+  position: absolute;
+}
+.email4 {
+  top: 15px;
+  left: 163px;
+  color: #dbd1d1;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 80px;
+  height: 28px;
+}
+.email2 {
+  top: 276px;
+  left: 160px;
+  width: 1156px;
+  height: 58px;
+}
+.firstName2,
+.firstName3 {
+  position: absolute;
+  top: 0;
+  left: 217px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  width: 459px;
+  height: 59px;
+}
+.firstName3 {
+  left: 801px;
+  width: 460px;
+}
+.email5,
+.email6,
+.lastDonation1 {
+  position: absolute;
+  display: inline-block;
+  height: 28px;
+}
+.lastDonation1 {
+  top: 19px;
+  left: 0;
+  color: #646464;
+  width: 151px;
+}
+.email5,
+.email6 {
+  top: 15px;
+  left: 245px;
+  width: 71px;
+}
+.email6 {
+  left: 836px;
+  width: 48px;
+}
+.lastDonation {
+  position: absolute;
+  top: 841px;
+  left: 75px;
+  width: 1261px;
+  height: 59px;
+  color: #dbd1d1;
+}
+.number {
+  position: absolute;
+  top: 0;
+  left: 228px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  width: 1024px;
+  height: 58px;
+}
+.number1,
+.phoneNumber3 {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  display: inline-block;
+  width: 162px;
+  height: 28px;
+}
+.number1 {
+  left: 259px;
+  color: #dbd1d1;
+  width: 88px;
+}
+.firstName4,
+.lastName2,
+.phoneNumber2 {
+  position: absolute;
+  top: 180px;
+  left: 64px;
+  width: 1252px;
+  height: 58px;
+}
+.firstName4,
+.lastName2 {
+  top: 0;
+  left: 175px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  width: 459px;
+}
+.lastName2 {
+  left: 731px;
+  width: 468px;
+}
+.first,
+.fullName2,
+.lastName3 {
+  position: absolute;
+  top: 14px;
+  left: 206px;
+  display: inline-block;
+  width: 50px;
+  height: 28px;
+}
+.fullName2,
+.lastName3 {
+  left: 759px;
+  width: 118px;
+}
+.fullName2 {
+  left: 0;
+  color: #4d4d4d;
+  width: 109px;
+}
+.firstAndLastName {
+  position: absolute;
+  top: 62px;
+  left: 117px;
+  width: 1199px;
+  height: 58px;
+  color: #c6c6c6;
+}
+.lastName4 {
+  position: absolute;
+  top: 0;
+  left: 83px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  width: 322px;
+  height: 59px;
+}
+.age3,
+.email7 {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  display: inline-block;
+  width: 42px;
+  height: 28px;
+}
+.email7 {
+  left: 108px;
+  color: #dbd1d1;
+  width: 43px;
+}
+.age2,
+.email8 {
+  position: absolute;
+  top: 386px;
+  left: 911px;
+  width: 405px;
+  height: 59px;
+}
+.email8 {
+  top: 0;
+  left: 156px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  width: 459px;
+  height: 171px;
+}
+.address3,
+.email9 {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  display: inline-block;
+  width: 90px;
+  height: 28px;
+}
+.email9 {
+  top: 23px;
+  left: 187px;
+  color: #dbd1d1;
+  width: 110px;
+}
+.address2,
+.button6 {
+  position: absolute;
+  top: 387px;
+  left: 136px;
+  width: 615px;
+  height: 171px;
+}
+.button6 {
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 90px 2px rgba(165, 164, 164, 0.25);
+  border-radius: 10px;
+  background-color: #fff;
+  width: 224.8px;
+  height: 71.9px;
+}
+.checkCircleIcon,
+.submit {
+  position: absolute;
+  height: 38px;
+}
+.submit {
+  top: 22px;
+  left: 52px;
+  display: inline-block;
+  width: 156.9px;
+}
+.checkCircleIcon {
+  top: 17px;
+  left: 157.9px;
+  width: 37px;
+  overflow: hidden;
+}
+.submitButton {
+  position: absolute;
+  top: 1059.1px;
+  left: 1106.2px;
+  width: 224.8px;
+  height: 71.9px;
+  font-size: 25px;
+  color: #000;
+}
+.formSection {
+  position: absolute;
+  top: 371px;
+  left: 30px;
+  width: 1379px;
+  height: 1198px;
+  color: #646464;
+}
+.airplayIcon {
+  position: absolute;
+  top: 3806px;
+  left: -12784px;
+  width: 147px;
+  height: 148px;
+  overflow: hidden;
+  display: none;
+}
+.navbarProfileSection {
+  position: absolute;
+  top: 96px;
+  left: 1165px;
+  width: 181.3px;
+  height: 44px;
+}
+.editProfilePageDonorDash {
+  position: absolute;
+  top: 2317px;
+  left: 6540px;
+  background-color: #fff;
+  width: 1442px;
+  height: 1785px;
+  overflow: hidden;
+}
+.bloodRecipientDetailsChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 100px 2px rgba(219, 215, 215, 0.25);
+  border-radius: 10px;
+  background-color: #fff;
+  width: 1268px;
+  height: 896px;
+}
+.gradientPanel {
+  position: absolute;
+  top: 31px;
+  left: 44px;
+  box-shadow: 0 4px 90px 2px rgba(209, 205, 205, 0.25);
+  border-radius: 10px;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #a81717 -22.88deg,
+    #550808 42.75deg,
+    #b32323 112.12deg,
+    #5e0909 160.87deg,
+    #991717 209.62deg,
+    #b32323 249deg,
+    #500707 295.87deg,
+    #a81717 337.12deg,
+    #550808 402.75deg
+  );
+  width: 510px;
+  height: 834px;
+}
+.button8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 90px 5px #dedfdf;
+  border-radius: 15px;
+  background-color: #b32323;
+  width: 335px;
+  height: 73px;
+}
+.currentLocation1 {
+  position: absolute;
+  top: 25px;
+  left: 69px;
+  font-weight: 900;
+  display: inline-block;
+  width: 198px;
+  height: 22px;
+}
+.currentLocation {
+  position: absolute;
+  top: 318px;
+  left: 866px;
+  width: 335px;
+  height: 73px;
+  color: #fff;
+}
+.button9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 90px 2px rgba(165, 164, 164, 0.25);
+  border-radius: 10px;
+  background-color: #fff;
+  width: 224px;
+  height: 71px;
+}
+.proceed1 {
+  position: absolute;
+  top: 22px;
+  left: 52px;
+  display: inline-block;
+  width: 156px;
+  height: 37px;
+}
+.chevronRightIcon {
+  position: absolute;
+  height: 52.11%;
+  width: 10.71%;
+  top: 23.94%;
+  right: 10.71%;
+  bottom: 23.94%;
+  left: 78.57%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.proceed {
+  position: absolute;
+  top: 781px;
+  left: 977px;
+  width: 224px;
+  height: 71px;
+  font-size: 25px;
+}
+.orButtonChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 90px 3px rgba(217, 214, 214, 0.25);
+  background-color: #fff;
+  width: 42px;
+  height: 36px;
+}
+.or,
+.orButton {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+}
+.orButton {
+  top: 428px;
+  left: 1008px;
+  width: 42px;
+  height: 36px;
+  font-size: 18px;
+}
+.recipientDetails {
+  position: absolute;
+  top: 110px;
+  left: 916px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.bloodGroup4 {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  display: inline-block;
+  width: 184px;
+  height: 28px;
+}
+.firstName5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  width: 335px;
+  height: 58px;
+}
+.chevronDownIcon3 {
+  position: absolute;
+  top: 20px;
+  left: 291px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.bloodGroup3,
+.fieldBox {
+  position: absolute;
+  top: 0;
+  left: 245px;
+  width: 335px;
+  height: 58px;
+}
+.bloodGroup3 {
+  top: 213px;
+  left: 615px;
+  width: 580px;
+  color: #646464;
+}
+.state3 {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  display: inline-block;
+  width: 58px;
+  height: 28px;
+}
+.chevronDownIcon4 {
+  position: absolute;
+  top: 18px;
+  left: 291px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.fieldBox1,
+.state2 {
+  position: absolute;
+  top: 0;
+  left: 171px;
+  width: 335px;
+  height: 58px;
+}
+.state2 {
+  top: 496px;
+  left: 689px;
+  width: 506px;
+  color: #646464;
+}
+.district5 {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  display: inline-block;
+  width: 140px;
+  height: 28px;
+}
+.chevronDownIcon5 {
+  position: absolute;
+  top: 20px;
+  left: 292px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.district4,
+.fieldBox2 {
+  position: absolute;
+  top: 0;
+  left: 183px;
+  width: 335px;
+  height: 58px;
+}
+.district4 {
+  top: 601px;
+  left: 677px;
+  width: 518px;
+  color: #646464;
+}
+.bloodRecipientDetails {
+  position: absolute;
+  top: 213px;
+  left: 86px;
+  width: 1268px;
+  height: 896px;
+}
+.aboutUs3,
+.contact3,
+.findBlood3,
+.home3 {
+  position: absolute;
+  top: 17px;
+  left: 348px;
+  width: 72px;
+  height: 36px;
+}
+.aboutUs3,
+.contact3,
+.findBlood3 {
+  left: 675px;
+  width: 124px;
+}
+.aboutUs3,
+.contact3 {
+  left: 494px;
+  width: 107px;
+}
+.contact3 {
+  top: 20px;
+  left: 77px;
+  display: inline-block;
+  width: 69px;
+  height: 30px;
+}
+.login {
+  position: absolute;
+  top: 0;
+  left: 1092px;
+  width: 224px;
+  height: 71px;
+  font-size: 25px;
+  font-family: Roboto;
+}
+.logoIcon,
+.registerNow3 {
+  position: absolute;
+  top: 16px;
+  left: 873px;
+  width: 184px;
+  height: 39px;
+}
+.logoIcon {
+  top: 1px;
+  left: 0;
+  width: 61px;
+  height: 62px;
+}
+.navbar3,
+.tabBar,
+.tabBarChild {
+  position: absolute;
+  width: 124px;
+  height: 5px;
+}
+.tabBarChild {
+  top: 0;
+  left: 0;
+  background-color: #4b4949;
+}
+.navbar3,
+.tabBar {
+  top: 55px;
+  left: 675px;
+}
+.navbar3 {
+  top: 52px;
+  left: 62px;
+  width: 1316px;
+  height: 71px;
+  font-family: Poppins;
+}
+.bloodNeederDetails1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 1440px;
+  height: 1185px;
+  overflow: hidden;
+}
+.button12 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 90px 2px rgba(165, 164, 164, 0.25);
+  border-radius: 10px;
+  background-color: #b32323;
+  width: 224px;
+  height: 71px;
+}
+.proceed3 {
+  position: absolute;
+  top: 22px;
+  left: 52px;
+}
+.orButton1,
+.proceed2 {
+  position: absolute;
+  top: 781px;
+  left: 977px;
+  width: 224px;
+  height: 71px;
+  font-size: 25px;
+  color: #fff;
+}
+.orButton1 {
+  top: 428px;
+  left: 1008px;
+  width: 42px;
+  height: 36px;
+  font-size: 18px;
+  color: #000;
+}
+.recipientDetails1 {
+  position: absolute;
+  top: 110px;
+  left: 916px;
+  font-size: 30px;
+  font-weight: 500;
+  color: #000;
+}
+.bloodGroup5,
+.district6,
+.state4 {
+  position: absolute;
+  top: 213px;
+  left: 615px;
+  width: 580px;
+  height: 58px;
+}
+.district6,
+.state4 {
+  top: 496px;
+  left: 689px;
+  width: 506px;
+}
+.district6 {
+  top: 601px;
+  left: 677px;
+  width: 518px;
+}
+.bloodRecipientDetails1 {
+  position: absolute;
+  top: 213px;
+  left: 86px;
+  width: 1268px;
+  height: 896px;
+  color: #646464;
+}
+.bloodNeederDetails2button {
+  position: absolute;
+  top: 1404px;
+  left: 0;
+  background-color: #fff;
+  width: 1440px;
+  height: 1185px;
+  overflow: hidden;
+}
+.bloodReipentDetails,
+.bloodReipentDetailsWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 2589px;
+}
+.bloodReipentDetailsWrapper {
+  top: 69px;
+}
+.donorDashboard {
+  width: 100%;
+  position: relative;
+  height: 4102px;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Roboto;
+}

@@ -1,0 +1,184 @@
+.tabaroi {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  color: inherit;
+  z-index: 2;
+}
+.tabaroiWrapper {
+  width: 119px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 18px 0 0;
+  box-sizing: border-box;
+}
+.aboutUs,
+.findBlood,
+.home {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.home {
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 72px;
+}
+.aboutUs,
+.findBlood {
+  min-width: 107px;
+  white-space: nowrap;
+}
+.findBlood {
+  min-width: 124px;
+}
+.frameWrapper,
+.homeParent {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.homeParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Poppins;
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 17px 39px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.registerNow {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  white-space: nowrap;
+  z-index: 2;
+}
+.chevronDownIcon {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.chevronDownWrapper {
+  flex-direction: column;
+  padding: 16px 0 0;
+}
+.chevronDownWrapper,
+.frameContainer,
+.registerNowParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.registerNowParent {
+  flex-direction: row;
+  gap: 5px;
+}
+.frameContainer {
+  flex-direction: column;
+  padding: 16px 0 0;
+}
+.button {
+  height: 71px;
+  width: 224px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  display: none;
+}
+.contact {
+  text-decoration: none;
+  height: 37px;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 73px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameGroup,
+.loginButton {
+  justify-content: flex-start;
+}
+.loginButton {
+  border-radius: 10px;
+  background-color: #fff;
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 17px 75px 11px;
+  white-space: nowrap;
+  font-size: 25px;
+  font-family: Roboto;
+}
+.frameGroup {
+  width: 968px;
+  gap: 35px;
+  color: #000;
+  font-family: Poppins;
+}
+.frameGroup,
+.frameParent,
+.homeInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.homeInner {
+  width: 1374px;
+  justify-content: flex-end;
+  padding: 0 62px 105px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 1275px) {
+  .homeInner {
+    padding-left: 31px;
+    padding-right: 31px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .frameWrapper {
+    display: none;
+  }
+  .frameGroup {
+    width: 478px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameGroup {
+    gap: 17px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .homeParent {
+    display: none;
+  }
+}

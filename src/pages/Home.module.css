@@ -1,0 +1,686 @@
+.footerChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 9px;
+  background: linear-gradient(
+      116.82deg,
+      rgba(255, 255, 255, 0) 50.52%,
+      rgba(255, 255, 255, 0.08)
+    ),
+    #000;
+  width: 100%;
+  height: 100%;
+}
+.email,
+.phone,
+.whatsapp {
+  position: absolute;
+  top: 71.2px;
+  left: 2px;
+  display: inline-block;
+  width: 57px;
+  height: 22px;
+}
+.email,
+.whatsapp {
+  top: 191px;
+  left: 0;
+  width: 94px;
+  height: 38.9px;
+}
+.email {
+  top: 131.1px;
+  left: 3px;
+  font-size: 20px;
+  width: 51px;
+  height: 24px;
+}
+.contact,
+.footerItem {
+  position: absolute;
+  width: 96px;
+}
+.contact {
+  top: 0;
+  left: 0;
+  font-size: 24px;
+  font-weight: 900;
+  display: inline-block;
+  height: 29px;
+}
+.footerItem {
+  top: 174.9px;
+  left: 115px;
+  height: 229.9px;
+  font-size: 18px;
+}
+.facebook,
+.followUs,
+.instagram,
+.linkedin {
+  position: absolute;
+  top: 71.2px;
+  left: 2px;
+  display: inline-block;
+  width: 91px;
+  height: 24px;
+}
+.followUs,
+.instagram,
+.linkedin {
+  top: 191px;
+  left: 3px;
+  width: 81px;
+  height: 38.9px;
+}
+.followUs,
+.instagram {
+  top: 131.1px;
+  width: 94px;
+  height: 24px;
+}
+.followUs {
+  top: 0;
+  left: 0;
+  font-size: 24px;
+  font-weight: 900;
+  width: 129px;
+  height: 29px;
+}
+.footerItem1,
+.privacy,
+.terms {
+  position: absolute;
+  top: 174.9px;
+  left: 395px;
+  width: 129px;
+  height: 229.9px;
+}
+.privacy,
+.terms {
+  top: 71.2px;
+  left: 2px;
+  display: inline-block;
+  width: 59px;
+  height: 24px;
+}
+.privacy {
+  top: 131.1px;
+  left: 3px;
+  width: 69px;
+  height: 38.9px;
+}
+.footerItem2,
+.legal {
+  position: absolute;
+  width: 129px;
+}
+.legal {
+  top: 0;
+  left: 0;
+  font-size: 24px;
+  font-weight: 900;
+  display: inline-block;
+  height: 29px;
+}
+.footerItem2 {
+  top: 174.9px;
+  left: 1192px;
+  height: 170px;
+}
+.loremIpsumIs,
+.visit {
+  position: absolute;
+  top: 71.2px;
+  left: 2px;
+  display: inline-block;
+  width: 218px;
+  height: 155.4px;
+}
+.visit {
+  top: 0;
+  left: 0;
+  font-size: 24px;
+  font-weight: 900;
+  width: 129px;
+  height: 29px;
+}
+.footerItem3 {
+  position: absolute;
+  top: 174.9px;
+  left: 729px;
+  width: 220px;
+  height: 226.7px;
+}
+.footer,
+.homeChild {
+  position: relative;
+  display: none;
+}
+.footer {
+  align-self: stretch;
+  height: 557px;
+  z-index: 0;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+  font-family: Roboto;
+}
+.homeChild {
+  width: 1203px;
+  height: 441px;
+  background: linear-gradient(
+    90.1deg,
+    #46052d,
+    #46052d 0.01%,
+    #500732 15.52%,
+    #5e0933 32.71%,
+    #610834 47.81%,
+    #6a0b37 63.44%,
+    #991747 76.98%,
+    #b32346 94.17%
+  );
+  max-width: 100%;
+  z-index: 2;
+}
+.wrapperGroup131,
+.wrapperGroup131Child {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+.wrapperGroup131Child {
+  overflow: hidden;
+  object-fit: contain;
+  top: 4px;
+  transform: scale(1.189);
+}
+.wrapperGroup131 {
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.navSeparator {
+  position: relative;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 29px;
+  z-index: 2;
+}
+.navbar {
+  width: 126.9px;
+  margin: 0 !important;
+  position: absolute;
+  bottom: 1246.1px;
+  left: 494px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 19px 43px 20.9px;
+  box-sizing: border-box;
+}
+.wrapperGroup1311,
+.wrapperGroup131Item {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+.wrapperGroup131Item {
+  overflow: hidden;
+  object-fit: contain;
+  top: 4px;
+  transform: scale(1.189);
+}
+.wrapperGroup1311 {
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.b {
+  position: relative;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 39px;
+  z-index: 2;
+}
+.navbar1,
+.pngwing1Icon {
+  position: absolute;
+  margin: 0 !important;
+}
+.navbar1 {
+  width: 126.9px;
+  bottom: 948.1px;
+  left: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 37px 23.9px;
+  box-sizing: border-box;
+}
+.pngwing1Icon {
+  height: 413px;
+  width: 620px;
+  bottom: -292.1px;
+  left: -564px;
+  object-fit: cover;
+}
+.wrapperGroup1312,
+.wrapperGroup131Inner {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+.wrapperGroup131Inner {
+  overflow: hidden;
+  object-fit: contain;
+  top: 4px;
+  transform: scale(1.189);
+}
+.wrapperGroup1312 {
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.b1 {
+  position: relative;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 38px;
+  z-index: 3;
+}
+.pngwing1Parent {
+  width: 126.9px;
+  margin: 0 !important;
+  position: absolute;
+  right: 326.1px;
+  bottom: 932.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 14px 38px 25.9px;
+  box-sizing: border-box;
+}
+.blood,
+.saveLifeDonate {
+  margin: 0;
+}
+.saveLifeDonateContainer {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  line-height: 56px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.heroGradientDesignIcon {
+  position: absolute;
+  top: -53px;
+  left: -1308px;
+  width: 2250px;
+  height: 1013px;
+  z-index: 1;
+}
+.logoIcon,
+.wrapperLogo {
+  position: absolute;
+  z-index: 2;
+}
+.logoIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  left: 20px;
+  top: 27px;
+  transform: scale(3.689);
+}
+.wrapperLogo {
+  top: 53px;
+  left: 62px;
+  width: 61px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tabBarSelected,
+.tabBarSelectedChild {
+  position: absolute;
+  background-color: #4b4949;
+}
+.tabBarSelectedChild {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.tabBarSelected {
+  top: 107px;
+  left: 410px;
+  width: 72px;
+  height: 5px;
+  z-index: 2;
+}
+.heroGradientDesignParent {
+  height: 960px;
+  width: 942px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -516px;
+  left: -909px;
+}
+.saveLifeDonateBloodParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.loremIpsumIs1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  line-height: 25px;
+  font-weight: 300;
+  color: #000;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 28px;
+  max-width: 100%;
+}
+.button {
+  height: 75px;
+  width: 261px;
+  position: relative;
+  box-shadow: 0 4px 90px 5px #dedfdf;
+  border-radius: 15px;
+  background-color: #b32323;
+  display: none;
+}
+.getBloodNow {
+  flex: 1;
+  position: relative;
+  font-size: 30px;
+  font-weight: 900;
+  font-family: Roboto;
+  color: #fff;
+  text-align: left;
+  z-index: 1;
+}
+.getBloodButton,
+.getBloodButtonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.getBloodButton {
+  flex: 1;
+  box-shadow: 0 4px 90px 5px #dedfdf;
+  border-radius: 15px;
+  background-color: #b32323;
+  justify-content: flex-start;
+  padding: 18px 1px 18px 36px;
+  white-space: nowrap;
+}
+.getBloodButtonWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0 10px;
+  background-color: transparent;
+  width: 281px;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+.frameParent,
+.homeInner {
+  display: flex;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 73px;
+}
+.homeInner {
+  width: 609px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 78px 230px;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: 48px;
+  color: #3b3b3b;
+  font-family: Roboto;
+}
+.ourMissionChild {
+  width: 1345px;
+  height: 252px;
+  position: relative;
+  box-shadow: 0 4px 100px 3px rgba(220, 220, 220, 0.25);
+  border-radius: 5px;
+  background-color: #fff;
+  display: none;
+  max-width: 100%;
+}
+.ourMission1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.ourMissionContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2px;
+}
+.loremIpsumIs2 {
+  width: 1230px;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  font-weight: 300;
+  color: #3b3b3b;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.ourMission {
+  flex: 1;
+  box-shadow: 0 4px 100px 3px rgba(220, 220, 220, 0.25);
+  border-radius: 5px;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 38px 20px 80px 57px;
+  box-sizing: border-box;
+  gap: 29px;
+}
+.frameContainer,
+.ourMission,
+.ourMissionWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.ourMissionWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 45px 0 50px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 36px;
+  color: #000;
+  font-family: Roboto;
+}
+.frameContainer {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 90px;
+}
+.frameSection,
+.home {
+  display: flex;
+  box-sizing: border-box;
+}
+.frameSection {
+  width: 1391px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 32px 30px;
+  max-width: 100%;
+}
+.home {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 52px 0 0;
+  gap: 104px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 64px;
+  color: #000;
+  font-family: Manrope;
+}
+@media screen and (max-width: 1275px) {
+  .ourMission {
+    padding-left: 28px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .b,
+  .b1,
+  .navSeparator {
+    font-size: 51px;
+  }
+  .saveLifeDonateContainer {
+    font-size: 38px;
+    line-height: 45px;
+  }
+  .homeInner {
+    padding-left: 39px;
+    padding-right: 39px;
+    padding-bottom: 149px;
+    box-sizing: border-box;
+  }
+  .ourMission1 {
+    font-size: 29px;
+  }
+  .ourMissionWrapper {
+    padding-left: 25px;
+    padding-right: 22px;
+    box-sizing: border-box;
+  }
+  .frameContainer {
+    gap: 45px;
+  }
+  .home {
+    gap: 52px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .email {
+    font-size: 16px;
+  }
+  .contact {
+    font-size: 19px;
+  }
+  .facebook,
+  .instagram,
+  .linkedin {
+    font-size: 16px;
+  }
+  .followUs {
+    font-size: 19px;
+  }
+  .privacy,
+  .terms {
+    font-size: 16px;
+  }
+  .legal {
+    font-size: 19px;
+  }
+  .loremIpsumIs {
+    font-size: 16px;
+  }
+  .visit {
+    font-size: 19px;
+  }
+  .b,
+  .b1,
+  .navSeparator {
+    font-size: 38px;
+  }
+  .saveLifeDonateContainer {
+    font-size: 29px;
+    line-height: 34px;
+  }
+  .frameParent {
+    gap: 36px;
+  }
+  .ourMission1 {
+    font-size: 22px;
+  }
+  .frameContainer {
+    gap: 22px;
+  }
+  .home {
+    gap: 26px;
+  }
+}

@@ -1,0 +1,239 @@
+.wrapperGroup32Child {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 15px;
+  top: 22px;
+  transform: scale(3.525);
+}
+.wrapperGroup32 {
+  height: 62px;
+  width: 61px;
+  position: absolute;
+  margin: 0 !important;
+  top: -22px;
+  left: -59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.tabaroi {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+  z-index: 1;
+}
+.mainContent,
+.pageContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pageContent {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.mainContent {
+  width: 156px;
+  flex-direction: column;
+  padding: 23px 0 0;
+  box-sizing: border-box;
+}
+.home {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 72px;
+}
+.navLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.aboutUs {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 107px;
+  white-space: nowrap;
+}
+.navLinks1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.findBlood {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 124px;
+  white-space: nowrap;
+}
+.navLinks2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.registerNow {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  white-space: nowrap;
+}
+.chevronDownIcon {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dropdown,
+.registerButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dropdown {
+  flex-direction: column;
+  padding: 16px 0 0;
+}
+.registerButton {
+  flex-direction: row;
+  gap: 5px;
+}
+.navbarDivider {
+  height: 5px;
+  flex: 1;
+  position: relative;
+  background-color: #4b4949;
+}
+.navItems,
+.registration,
+.separator {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.separator {
+  width: 158px;
+  flex-direction: row;
+  padding: 0 3px;
+  box-sizing: border-box;
+}
+.navItems,
+.registration {
+  flex-direction: column;
+}
+.navItems {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.button,
+.navContent {
+  box-sizing: border-box;
+}
+.navContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 11px;
+  max-width: 100%;
+}
+.button {
+  height: 71px;
+  width: 224px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 2px solid #000;
+  display: none;
+}
+.contact {
+  text-decoration: none;
+  height: 37px;
+  position: relative;
+  font-size: 25px;
+  font-family: Roboto;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  min-width: 69px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.buttonParent,
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.buttonParent {
+  cursor: pointer;
+  border: 2px solid #000;
+  padding: 17px 77px 11px;
+  background-color: #fff;
+  border-radius: 10px;
+  align-items: flex-start;
+  white-space: nowrap;
+}
+.buttonParent:hover {
+  background-color: #e6e6e6;
+  border: 2px solid #333;
+  box-sizing: border-box;
+}
+.navigation {
+  width: 968px;
+  align-items: flex-end;
+  gap: 35px;
+  max-width: 100%;
+  font-family: Poppins;
+}
+.mainContentParent,
+.registerAsOrganisation1Inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.mainContentParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}
+.registerAsOrganisation1Inner {
+  width: 1319px;
+  justify-content: flex-end;
+  padding: 0 31px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1125px) {
+  .navItems {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navigation {
+    gap: 17px;
+  }
+}

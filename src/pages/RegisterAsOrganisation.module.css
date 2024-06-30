@@ -1,0 +1,100 @@
+.headingBarChild {
+  height: 497px;
+  width: 1320px;
+  position: relative;
+  background: linear-gradient(
+    90.1deg,
+    #460505,
+    #460505 14.29%,
+    #500707 28.57%,
+    #5e0909 42.86%,
+    #610808 57.14%,
+    #6a0b0b 71.43%,
+    #991717 85.71%,
+    #b32323
+  );
+  display: none;
+  max-width: 100%;
+}
+.registerAsOrganization {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.headingBar,
+.headingBarWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.headingBar {
+  flex: 1;
+  background: linear-gradient(
+    90.1deg,
+    #460505,
+    #460505 14.29%,
+    #500707 28.57%,
+    #5e0909 42.86%,
+    #610808 57.14%,
+    #6a0b0b 71.43%,
+    #991717 85.71%,
+    #b32323
+  );
+  padding: 59px 23px;
+  min-height: 497px;
+}
+.headingBarWrapper {
+  align-self: stretch;
+  padding: 0 29px;
+  text-align: left;
+  font-size: 36px;
+  color: #fff;
+  font-family: Roboto;
+}
+.body,
+.registerAsOrganisation1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.body {
+  align-self: stretch;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.registerAsOrganisation1 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  align-items: flex-end;
+  padding: 52px 31px 146px;
+  box-sizing: border-box;
+  gap: 90px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1025px) {
+  .registerAsOrganization {
+    font-size: 29px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .registerAsOrganisation1 {
+    gap: 45px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .registerAsOrganization {
+    font-size: 22px;
+  }
+  .registerAsOrganisation1 {
+    gap: 22px;
+  }
+}
